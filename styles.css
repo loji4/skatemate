@@ -18,4 +18,10 @@ html body {
         color: black;
     }
 
-   
+ .logo {
+     width: 125px;
+     height: 125px;
+     position: relative;
+     bottom:55px;
+     right: 55px;
+}
