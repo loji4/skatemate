@@ -5,8 +5,8 @@ html body {
 }
 
     .img-thumbnail {
-        height: 350px;
-        width: 350px;
+        height: 250px;
+        width: 250px;
         border-radius: 50%;
         margin-top: 30px;
         background-color: #FBB6B4BD;
@@ -24,4 +24,5 @@ html body {
      position: relative;
      bottom:55px;
      right: 55px;
+     margin-bottom: 0px;
 }
