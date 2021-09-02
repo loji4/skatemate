@@ -1,0 +1,21 @@
+html body {
+    background-color: #FBB6B4BD;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+    .img-thumbnail {
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+        margin-top: 30px;
+        background-color: #FBB6B4BD;
+    
+    }
+
+    hr{
+        height: 20px;
+        color: black;
+    }
+
+   
