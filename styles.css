@@ -19,10 +19,15 @@ html body {
     }
 
  .logo {
-     width: 125px;
-     height: 125px;
-     position: relative;
-     bottom:55px;
-     right: 55px;
-     margin-bottom: 0px;
+     width: 80px;
+     height: 80px;
+     position: relative; 
+     bottom:35px;  
+     right: 45px;
+     margin:0!important;
 }
+
+/* h1 {
+    margin-bottom: 70px;
+} */
+
