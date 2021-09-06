@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
   </head>
   <body>
        <!-- nav -->
@@ -24,12 +25,12 @@
            </div> 
         </div> 
      </div>  
-     <div class="container"> 
+     <!-- <div class="container"> 
         <div class="row"> 
-           <div class="col text-center">
-               <button type="button" class="btn-lg btn-light fw-bold mt-2 ">Forward Bubbles</button>
-            <button type="button" class="btn-lg btn-light fw-bold ">Plow Stop</button>
-            <button type="button" class="btn-lg btn-light fw-bold ">Single Leg Balance</button>
+           <div class="col text-center ">
+               <button type="button" class="btn-lg btn-light fw-bold mt-2">Forward Bubbles</button>
+            <button type="button" class="btn-lg btn-light fw-bold js-btn ">Plow Stop</button>
+            <button type="button" class="btn-lg btn-light fw-bold js-btn">Single Leg Balance</button>
             <button type="button" class="btn-lg btn-light fw-bold mt-2 ">Carving</button><button type="button" class="btn-lg btn-light fw-bold mt-2">Moonwalk</button>
             <button type="button" class="btn-lg btn-light fw-bold ">Skate forward</button><button type="button" class="btn-lg btn-light fw-bold mt-2 ">Forward Bubbles</button>
             <button type="button" class="btn-lg btn-light fw-bold mt-2">Plow Stop</button><button type="button" class="btn-lg btn-light fw-bold mt-2 ">One Sided Bubbles</button>
@@ -38,7 +39,7 @@
             <button type="button" class="btn-lg btn-light fw-bold ">Cannonball</button><button type="button" class="btn-lg btn-light fw-bold ">Skate backwards</button>
             <button type="button" class="btn-lg btn-light fw-bold ">Dip </button><button type="button" class="btn-lg btn-light fw-bold mt-2 ">Moonwalk</button>
             <button type="button" class="btn-lg btn-light fw-bold mt-2">Shoot the Duck</button>
-            <button type="button" class="btn-lg btn-light fw-bold ">Extensions </button><button type="button" class="btn-lg btn-light fw-bold mt-2">Bunny Hop</button>
+            <button type="button" class="btn-lg btn-light fw-bold ">Extensions </button><button type="button" class="btn-lg btn-light fw-bold mt-2">Bunny Hop</button> -->
     
     
     
@@ -46,8 +47,19 @@
         </div> 
      </div> 
     
-
+     <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+        <label class="btn btn-outline-primary text-dark bg-l ms-2" for="btncheck1">Forward Bubbles</label>
+      
+        <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+        <label class="btn btn-outline-primary text-dark ms-2" for="btncheck2">PlowStop</label>
+      
+        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+        <label class="btn btn-outline-primary text-dark ms-2" for="btncheck3">Single Leg Balance</label>
+      </div>
+     
     <!-- Optional JavaScript; choose one of the two! -->
+    <script src='./app.js'></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
@@ -56,6 +68,7 @@
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
     -->
   </body>
 </html>
