@@ -36,3 +36,7 @@ html body {
 .footer {
     margin-top: 320px;
 }
+
+.entire-container {
+    display: none;
+}

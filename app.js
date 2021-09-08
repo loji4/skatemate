@@ -1,18 +1,22 @@
-document.querySelector('.js-btn').addEventListener('click',btnFunc)
+// document.querySelector('.js-btn').addEventListener('click',btnFunc)
 
-function btnFunc (e) {
-   let btn = document.querySelector('.js-btn')
-   btn.style.backgroundColor = '#ADD8E6'
+// function btnFunc (e) {
+//    let btn = document.querySelector('.js-btn')
+//    btn.style.backgroundColor = '#ADD8E6'
+// }
+
+
+
+
+// add an event to button one and two
+// if both button are clicked, display a new page with  recommendations 
+// add the page to HTML (hide it first)
+
+document.querySelector('#btncheck1').addEventListener('click',buttonFunc)
+
+function buttonFunc(e) {
+let container = document.querySelector('.entire-container')
+if (container.style.display === "none") {
+    container.style.display = "block"
+ }
 }
-
-getReco()
-
-function getReco (e) {
-let button1 = document.querySelectorAll('#btncheck1');
-let button2 = document.querySelectorAll('#btncheck2');
- if (button1) {
-        button1.innerHTML ='you clicked me'
-    }
-}
-
-getReco()
